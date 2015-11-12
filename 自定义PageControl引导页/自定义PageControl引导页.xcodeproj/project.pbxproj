@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37051F3F1BF34BCC00AABF1B /* help1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37051F3B1BF34BCC00AABF1B /* help1.png */; };
+		37051F401BF34BCC00AABF1B /* help2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37051F3C1BF34BCC00AABF1B /* help2.png */; };
+		37051F411BF34BCC00AABF1B /* help3.png in Resources */ = {isa = PBXBuildFile; fileRef = 37051F3D1BF34BCC00AABF1B /* help3.png */; };
+		37051F421BF34BCC00AABF1B /* help4.png in Resources */ = {isa = PBXBuildFile; fileRef = 37051F3E1BF34BCC00AABF1B /* help4.png */; };
+		37BD5D571BF437EA0054CAF8 /* helpBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BD5D561BF437EA0054CAF8 /* helpBtn.png */; };
 		37F36E711BF31C4400898EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F36E701BF31C4400898EF0 /* main.m */; };
 		37F36E741BF31C4400898EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F36E731BF31C4400898EF0 /* AppDelegate.m */; };
 		37F36E771BF31C4400898EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F36E761BF31C4400898EF0 /* ViewController.m */; };
@@ -37,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37051F3B1BF34BCC00AABF1B /* help1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help1.png; sourceTree = "<group>"; };
+		37051F3C1BF34BCC00AABF1B /* help2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help2.png; sourceTree = "<group>"; };
+		37051F3D1BF34BCC00AABF1B /* help3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help3.png; sourceTree = "<group>"; };
+		37051F3E1BF34BCC00AABF1B /* help4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help4.png; sourceTree = "<group>"; };
+		37BD5D561BF437EA0054CAF8 /* helpBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpBtn.png; sourceTree = "<group>"; };
 		37F36E6C1BF31C4400898EF0 /* 自定义PageControl引导页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义PageControl引导页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F36E701BF31C4400898EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37F36E721BF31C4400898EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 		37F36E6E1BF31C4400898EF0 /* 自定义PageControl引导页 */ = {
 			isa = PBXGroup;
 			children = (
+				37BD5D561BF437EA0054CAF8 /* helpBtn.png */,
+				37051F3B1BF34BCC00AABF1B /* help1.png */,
+				37051F3C1BF34BCC00AABF1B /* help2.png */,
+				37051F3D1BF34BCC00AABF1B /* help3.png */,
+				37051F3E1BF34BCC00AABF1B /* help4.png */,
 				37F36E721BF31C4400898EF0 /* AppDelegate.h */,
 				37F36E731BF31C4400898EF0 /* AppDelegate.m */,
 				37F36E751BF31C4400898EF0 /* ViewController.h */,
@@ -253,7 +268,12 @@
 			files = (
 				37F36E821BF31C4400898EF0 /* LaunchScreen.storyboard in Resources */,
 				37F36E7F1BF31C4400898EF0 /* Assets.xcassets in Resources */,
+				37051F3F1BF34BCC00AABF1B /* help1.png in Resources */,
+				37BD5D571BF437EA0054CAF8 /* helpBtn.png in Resources */,
 				37F36E7A1BF31C4400898EF0 /* Main.storyboard in Resources */,
+				37051F421BF34BCC00AABF1B /* help4.png in Resources */,
+				37051F411BF34BCC00AABF1B /* help3.png in Resources */,
+				37051F401BF34BCC00AABF1B /* help2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +526,7 @@
 				37F36E9E1BF31C4500898EF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37F36E9F1BF31C4500898EF0 /* Build configuration list for PBXNativeTarget "自定义PageControl引导页Tests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +535,7 @@
 				37F36EA11BF31C4500898EF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37F36EA21BF31C4500898EF0 /* Build configuration list for PBXNativeTarget "自定义PageControl引导页UITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +544,7 @@
 				37F36EA41BF31C4500898EF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

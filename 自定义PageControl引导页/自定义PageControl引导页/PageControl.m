@@ -89,7 +89,7 @@
     // CGRectGetMidX表示得到一个frame中心点的X坐标，CGRectGetMidY表示得到一个frame中心点的Y坐标
     CGFloat x = CGRectGetMidX(currentRect)-dotsWidth/2;
     CGFloat y = CGRectGetMidY(currentRect)-KDotDiameter/2;
-    
+
     for (int i =0; i<_numberOfPage; i++) {
         CGRect circleRect = CGRectMake(x, y, KDotDiameter, KDotDiameter);
         if (i == _currentPage) {
@@ -105,6 +105,7 @@
         x += KDotDiameter + KDotSpacer;
     }
 }
+// ios9 api有改动
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     if (!self.delegate) return;
@@ -125,7 +126,7 @@
     self.currentPage = floor(x/(KDotSpacer+KDotDiameter));
     if ([self.delegate respondsToSelector:@selector(pageControlPageDidChange:)])
     {
-        //[self.delegate pageControlPageDidChange:self];
+        [self.delegate pageControlPageDidChange:self];
     }
 
     

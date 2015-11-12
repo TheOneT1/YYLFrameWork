@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol PageControlDelegate;
+@protocol PageCotrolDelegate;
+
 @interface PageControl : UIView
 {
     NSInteger _currentPage;
     NSInteger _numberOfPage;
-    NSObject<PageControlDelegate>*delegate;
+    NSObject<PageCotrolDelegate>*delegate;
 }
 
 /*
@@ -25,7 +26,7 @@
 
 @property(nonatomic,retain)UIColor *dotCurrentPageColor;//当前圆点颜色
 @property(nonatomic,retain)UIColor *dotOtherPageColor;//其他颜色
-@property(nonatomic,strong)NSObject<PageControlDelegate> *delegate;
+@property(nonatomic,strong)NSObject<PageCotrolDelegate> *delegate;
 @end
 
 @protocol PageCotrolDelegate <NSObject>
