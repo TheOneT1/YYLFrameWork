@@ -11,7 +11,6 @@
 		37314C301BFADA52004307F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37314C2F1BFADA52004307F7 /* AppDelegate.m */; };
 		37314C331BFADA52004307F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37314C321BFADA52004307F7 /* ViewController.m */; };
 		37314C361BFADA52004307F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37314C341BFADA52004307F7 /* Main.storyboard */; };
-		37314C391BFADA52004307F7 /* BannerWithLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37314C371BFADA52004307F7 /* BannerWithLab.xcdatamodeld */; };
 		37314C3B1BFADA52004307F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37314C3A1BFADA52004307F7 /* Assets.xcassets */; };
 		37314C3E1BFADA52004307F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37314C3C1BFADA52004307F7 /* LaunchScreen.storyboard */; };
 		37314C491BFADA52004307F7 /* BannerWithLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37314C481BFADA52004307F7 /* BannerWithLabTests.m */; };
@@ -44,7 +43,6 @@
 		37314C311BFADA52004307F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37314C321BFADA52004307F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		37314C351BFADA52004307F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37314C381BFADA52004307F7 /* BannerWithLab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BannerWithLab.xcdatamodel; sourceTree = "<group>"; };
 		37314C3A1BFADA52004307F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37314C3D1BFADA52004307F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37314C3F1BFADA52004307F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				37314C3A1BFADA52004307F7 /* Assets.xcassets */,
 				37314C3C1BFADA52004307F7 /* LaunchScreen.storyboard */,
 				37314C3F1BFADA52004307F7 /* Info.plist */,
-				37314C371BFADA52004307F7 /* BannerWithLab.xcdatamodeld */,
 				37314C2B1BFADA52004307F7 /* Supporting Files */,
 			);
 			path = BannerWithLab;
@@ -289,7 +286,6 @@
 				37314C331BFADA52004307F7 /* ViewController.m in Sources */,
 				37314C301BFADA52004307F7 /* AppDelegate.m in Sources */,
 				37314C2D1BFADA52004307F7 /* main.m in Sources */,
-				37314C391BFADA52004307F7 /* BannerWithLab.xcdatamodeld in Sources */,
 				37314C631BFADAA9004307F7 /* BannerWithLab.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,19 +531,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		37314C371BFADA52004307F7 /* BannerWithLab.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				37314C381BFADA52004307F7 /* BannerWithLab.xcdatamodel */,
-			);
-			currentVersion = 37314C381BFADA52004307F7 /* BannerWithLab.xcdatamodel */;
-			path = BannerWithLab.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 37314C201BFADA52004307F7 /* Project object */;
 }
