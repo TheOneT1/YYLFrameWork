@@ -1,0 +1,6 @@
+framework module ReactiveObjCBridge {
+  umbrella header "ReactiveObjCBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
